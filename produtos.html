@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Catálogo da Gráfica Canaã: carimbos, cartões de visita, adesivos, banners, canecas e estampas." />
+    <title>Nossos Produtos — Gráfica Canaã</title>
+    <link rel="icon" href="/img/logo.png" />
+    <style>@media (prefers-reduced-motion: no-preference) { @view-transition { navigation: auto; } }</style>
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <script>for (const ev of [`pageswap`, `pagereveal`]) addEventListener(ev, (e) => { const t = e.viewTransition; if (!t) return; for (const p of [t.ready, t.finished, t.updateCallbackDone]) p.catch(() => {}); });</script>
+  </head>
+  <body>
+    <div id="site-header"></div>
+
+    <main>
+      <section class="titulo-faixa">
+        <div class="container">
+          <div>
+            <h1>Explore Nossos Produtos</h1>
+            <p>Temos um grande acervo de produtos para satisfazer sua necessidade, não encontrou o que procurava? Clique no botão para ser redirecionado para nosso formulário, e fazer um pedido customizado.</p>
+          </div>
+          <a class="btn" href="/pedido.html">Fazer pedido customizado →</a>
+        </div>
+      </section>
+
+      <div class="container catalogo">
+        <aside class="filtros">
+          <h2>Filtros de Pesquisa</h2>
+          <div id="filtros-categorias"></div>
+          <h2>Ordem de Exibição</h2>
+          <select id="ordem">
+            <option value="az">Alfabética (A-Z)</option>
+            <option value="za">Alfabética (Z-A)</option>
+          </select>
+        </aside>
+        <section class="grade" id="grade"></section>
+      </div>
+    </main>
+
+    <div id="site-footer"></div>
+    <script type="module" blocking="render" src="/src/js/layout.js"></script>
+    <script type="module" blocking="render" src="/src/js/produtos.js"></script>
+  </body>
+</html>
