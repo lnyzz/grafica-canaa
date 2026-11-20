@@ -30,15 +30,6 @@ export const produtos = [
     imagem: '/img/produtos/carimbo-automatico-preto.jpg',
   },
   {
-    id: 'carimbo-de-madeira',
-    nome: 'Carimbo de Madeira',
-    categoria: 'carimbos',
-    resumo: 'Carimbo tradicional com cabo de madeira.',
-    descricao:
-      'Carimbo de madeira tradicional, durável e prático, personalizado com o seu texto ou logotipo.',
-    imagem: '/img/produtos/carimbo-de-madeira.jpg',
-  },
-  {
     id: 'carimbo-de-bolso',
     nome: 'Carimbo de Bolso',
     categoria: 'carimbos',

@@ -6,7 +6,6 @@ Substitua pelas fotos reais da Gráfica Canaã antes de publicar. Licenças CC B
 | Arquivo | Título no Commons | Licença |
 |---|---|---|
 | public/img/produtos/carimbo-automatico-preto.jpg | Foto real da Gráfica Canaã | Própria |
-| public/img/produtos/carimbo-de-madeira.jpg | Stamp, name (AM 1965.78.558-1).jpg | CC BY 4.0 |
 | public/img/produtos/carimbo-de-madeira-2.jpg | Foto real da Gráfica Canaã | Própria |
 | public/img/produtos/carimbo-de-bolso.webp | Foto real da Gráfica Canaã | Própria |
 | public/img/produtos/cartao-visita.jpg | Foto real da Gráfica Canaã | Própria |
